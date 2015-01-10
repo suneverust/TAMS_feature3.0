@@ -77,6 +77,7 @@ main (int argc, char **argv)
     indices.push_back(200);
     indices.push_back(2000);
     indices.push_back(1500);
+    ...
     boost::shared_ptr<std::vector<int> > indicesptr (new std::vector<int> (indices));
     fest.setIndices (indicesptr);
   ***************************************************************/
